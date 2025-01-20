@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Ride Share Application",
+    "imageSrc": "projects/rideshare.png",
+    "description": "A real-time ride-sharing platform featuring GenAI-powered matching, live tracking, and secure authentication.",
+    "skills": ["React", "Node.js", "Socket.io", "JWT", "Mapbox", "GenAI"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/raghu071003/backend_rideShare"
+  },
+  {
+    "title": "aniClothing",
+    "imageSrc": "projects/aniclothing.png",
+    "description": "An e-commerce platform with dynamic cart management and secure user authentication system.",
+    "skills": ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Context API"],
+    "demo": "https://aniclothing-cuxy23owh-sai-raghu-vamshi-konetis-projects.vercel.app/",
+    "source": "https://github.com/raghu071003/Ecommerce"
+  },
+  {
+    "title": "Banking Application",
+    "imageSrc": "projects/banking.png",
+    "description": "A comprehensive banking platform with features for transactions, statement management, and admin controls.",
+    "skills": ["React", "Node.js", "MySQL", "Express.js"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/raghu071003/BankingApp"
+  }
+]

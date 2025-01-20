@@ -1,0 +1,11 @@
+:root {
+  /* Colours */
+  --color-text: #fefae0; /* Light cream for text */
+  --color-primary: #d62828; /* Bright crimson for a striking primary color */
+  --color-secondary: #914b01; /* Warm orange for secondary elements */
+  --color-dark: #3a0ca3; /* Deep violet for darker tones */
+  --color-bg: #1b1a17; /* Charcoal black for background */
+
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+}

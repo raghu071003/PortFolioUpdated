@@ -1,0 +1,56 @@
+@import "../../vars.css";
+
+.container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 24px;
+  color: var(--color-text);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+}
+.title2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--color-primary);
+  margin: 12px auto 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .projects {
+    gap: 24px;
+  }
+}
